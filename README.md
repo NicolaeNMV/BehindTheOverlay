@@ -1,6 +1,6 @@
 # OverlayGameOver Chrome Extension
 
-** One button to close any overlay on any website **
+**One button to close any overlay on any website**
 
 ## What's it all about?
 
