@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Overlay remover tests</title>
+  <link rel="stylesheet" href="./node_modules/qunitjs/qunit/qunit.css"/>
+</head>
+<body>
+<div id="qunit"></div>
+  <div id="qunit-fixture">
+    <div id="toTestWeight0"></div>
+    <div id="toTestWeight1">
+        Lala
+    </div>
+    <div id="toTestWeight3">
+        Lala<br/>
+        Lala
+    </div>
+    <div id="toTestWeight4"><div>Lala</div><div>Lala</div></div>
+    <div id="toTestWeight8"><div>Lala<div>Lala<div>Lala<div>Lala</div></div></div></div></div>
+    <div id="toTestWeight14"><div>Lala<div>Lala<div>Lala<div>Lala<div>Lala<div>Lala<div>Lala</div></div></div></div></div></div></div></div>
+    <div id="toTestWeight">
+        Lala
+        <div>Lolo
+            <div>Da</div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+  </div>
+  <script src="./node_modules/qunitjs/qunit/qunit.js"></script>
+  <script src="../overlay_remover.js"></script>
+  <script src="tests.js"></script>
+</body>
+</html>
