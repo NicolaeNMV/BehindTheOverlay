@@ -12,7 +12,7 @@ This extension solves this problem by offering **you one button to close any ove
 
 ## Example
 
-![Image](http://nicolaenmv.github.io/BehindTheCurtain/use_example.gif) 
+![Image](http://nicolaenmv.github.io/BehindTheCurtain/use_example_1.gif) 
 
 ## Does it work everywhere ?
 
