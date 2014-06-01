@@ -1,0 +1,23 @@
+{
+  "name": "OverlayCloser",
+  "description": "One click to close any overlay on any website.",
+  "version": "0.0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js", "overlay_remover.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+       "19": "courtain_38.png",
+       "38": "courtain_38.png"
+    },
+    "default_title": "Remove the overlay on this page."
+  },
+  "icons": {
+    "128": "courtain_128.png"
+  },
+  "manifest_version": 2
+}
