@@ -10,6 +10,10 @@ I find this very annoying as every site will have a different way to close that 
 
 This extension solves this problem by offering **you one button to close any overlay** on any website you may ever encounter.
 
+## Example
+
+![Image](http://nicolaenmv.github.io/BehindTheCurtain/use_example.gif) 
+
 ## Does it work everywhere ?
 
 The extension should work on all sites that have overlays. I created a list of some of the websites that the extension is know to work: [WORKS_ON.md](WORKS_ON.md).
