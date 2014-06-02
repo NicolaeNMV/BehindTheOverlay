@@ -10,7 +10,7 @@ I find this very annoying as every site will have a different way to close that 
 
 This extension solves this problem by offering **you one button to close any overlay** on any website you may ever encounter.
 
-## Example
+## Extension in action
 
 ![Image](http://nicolaenmv.github.io/BehindTheOverlay/use_example_1.gif)
 
