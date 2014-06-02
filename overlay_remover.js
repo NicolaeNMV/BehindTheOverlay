@@ -8,12 +8,16 @@ var debug = true;
 
 var utils = (function() {
   function hideElement(element) {
-    element.style.display = '';
+    styleImportant(element, 'display', 'none');
+  }
+
+  function styleImportant(element, cssProperty, cssValue) {
+    element.style[cssProperty] = '';
     var cssText = element.style.cssText || '';
-    if (cssText.length > 0 && cssText.slice(-1) != ";")
-      cssText += ";";
+    if (cssText.length > 0 && cssText.slice(-1) != ';')
+      cssText += ';';
     // Some pages are using !important on elements, so we must use it too
-    element.style.cssText = cssText + 'display: none !important;';
+    element.style.cssText = cssText + cssProperty + ': ' + cssValue + ' !important;';
   }
 
   function isVisible(element) {
@@ -93,7 +97,8 @@ var utils = (function() {
     getZIndex: getZIndex,
     forEachElement: forEachElement,
     collectParrents: collectParrents,
-    elementWeight: elementWeight
+    elementWeight: elementWeight,
+    styleImportant: styleImportant
   }
 })();
 
@@ -138,7 +143,7 @@ var overlayRemover = function(debug, utils) {
     });
 
     if (debug)
-      console.debug("Overlay found: ", overlayFound);
+      console.debug('Overlay found: ', overlayFound);
 
     if (overlayFound.length == 0)
       return false;
@@ -146,15 +151,15 @@ var overlayRemover = function(debug, utils) {
     var olderParent = overlayFound.pop();
 
     if (debug)
-      console.debug("Hide parrent: ", olderParent);
+      console.debug('Hide parrent: ', olderParent);
 
     return olderParent;
   }
 
   function bodyOverflowAuto() {
     var body = document.body;
-    if (window.getComputedStyle(body).overflow == "hidden") {
-      body.style.overflow = "auto";
+    if (window.getComputedStyle(body).overflow == 'hidden') {
+      utils.styleImportant(body, 'overflow', 'auto');
     }
   }
 
@@ -164,7 +169,7 @@ var overlayRemover = function(debug, utils) {
       var first = i == 0;
       if (candidate === false) {
         if (first)
-          alert("No overlay has been found on this website.");
+          alert('No overlay has been found on this website.');
         break;
       } else {
         if (!first) {
@@ -173,7 +178,7 @@ var overlayRemover = function(debug, utils) {
           var candidateWeight = utils.elementWeight(candidate, weightThreshold)
           if (candidateWeight < weightThreshold) {
             if (debug)
-              console.log("Element is too lightweigh, hide it", candidate);
+              console.log('Element is too lightweigh, hide it', candidate);
             utils.hideElement(candidate);
           } else {
             if (debug)
