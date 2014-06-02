@@ -1,5 +1,6 @@
 These are some of the sites where the extension was tested to be working
 
+* http://www.quora.com/Product-Launches/What-is-the-best-day-of-the-week-to-launch-a-new-product-or-company
 * https://www.youtube.com/user/SCStarNet?annotation_id=annotation_1748547763&feature=iv&src_vid=BOl7H0jGiOw&sub_confirmation=1
 * http://www.pbs.org/wgbh/pages/frontline/shows/teenbrain/work/adolescent.html
 * http://www.pcmag.com/

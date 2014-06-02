@@ -1,4 +1,4 @@
-# OverlayGameOver Chrome Extension
+# BehindTheOverlay Chrome Extension
 
 **One button to close any overlay on any website**
 
@@ -12,7 +12,7 @@ This extension solves this problem by offering **you one button to close any ove
 
 ## Example
 
-![Image](http://nicolaenmv.github.io/BehindTheCurtain/use_example_1.gif) 
+![Image](http://nicolaenmv.github.io/BehindTheOverlay/use_example_1.gif)
 
 ## Does it work everywhere ?
 
@@ -21,7 +21,7 @@ The extension should work on all sites that have overlays. I created a list of s
 ## Features
 
 * Requires no special permissions.
-* Extremely lightweight, relies on little known ``document.elementFromPoint`` browser's function to find elements that are in front with the highest z-index. 
+* Extremely lightweight, relies on little known ``document.elementFromPoint`` browser's function to find elements that are in front with the highest z-index.
 * Non-intrusive. The extension activates only when you click its button, thereby it has no impact on navigation performance when you don't use the extension. Doesn't inject tons of CSS rules as AdBlock extension is doing for example.
 * Supports hiding of multiple DOM overlay elements.
 * Enables overflow auto of the body when overlay script hides it to disable the scroll of the page.
