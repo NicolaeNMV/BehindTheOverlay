@@ -1,10 +1,10 @@
-# BehindTheOverlay Chrome Extension
+# [BehindTheOverlay Chrome Extension](https://chrome.google.com/webstore/detail/behindtheoverlay/ljipkdpcjbmhkdjjmbbaggebcednbbme)
 
 **One button to close any overlay on any website**
 
 ## What's it all about?
 
-Some websites will use an overlay to mask it's content with a transparent background to force you to read a message before you can see the actual content.
+Some websites will use an overlay to mask its content with a transparent background to force you to read a message before you can see the actual content.
 
 I find this very annoying as every site will have a different way to close that overlay popup.
 
