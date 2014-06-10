@@ -1,6 +1,6 @@
 # [BehindTheOverlay Chrome Extension](https://chrome.google.com/webstore/detail/behindtheoverlay/ljipkdpcjbmhkdjjmbbaggebcednbbme)
 
-**One button to close any overlay on any website** (for instant feedbacks ``behindtheoverlay@gmail.com``)
+**One button to close any overlay on any website**  follow [Behind_Overlay](https://twitter.com/Behind_Overlay) for updates
 
 ## What's it all about?
 
