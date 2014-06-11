@@ -4,9 +4,9 @@
 
 ## News
 
-[11-Jun] Firefox extension is coming very soon.
+11 Jun | Firefox extension is coming very soon.
 
-[10-Jun] Assign a keyboard shortcut, [see how](https://twitter.com/Behind_Overlay/status/476250479706398722).
+10 Jun | Assign a keyboard shortcut, [see how](https://twitter.com/Behind_Overlay/status/476250479706398722).
 
 ## What's it all about?
 
