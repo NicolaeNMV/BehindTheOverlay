@@ -2,6 +2,12 @@
 
 **One button to close any overlay on any website**  follow [Behind_Overlay](https://twitter.com/Behind_Overlay) for updates
 
+## News
+
+[11-Jun] Firefox extension is coming very soon.
+
+[10-Jun] Assign a keyboard shortcut, [see how](https://twitter.com/Behind_Overlay/status/476250479706398722).
+
 ## What's it all about?
 
 Some websites will use an overlay to mask its content with a transparent background to force you to read a message before you can see the actual content.
