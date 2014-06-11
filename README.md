@@ -1,12 +1,22 @@
-# [BehindTheOverlay Chrome Extension](https://chrome.google.com/webstore/detail/behindtheoverlay/ljipkdpcjbmhkdjjmbbaggebcednbbme)
+# BehindTheOverlay Extension
+
+[Chrome Extension](https://chrome.google.com/webstore/detail/behindtheoverlay/ljipkdpcjbmhkdjjmbbaggebcednbbme)
+
+[Firefox extension](https://addons.mozilla.org/en-us/firefox/addon/behind_the_overlay/) (still in process of validation, may take a few days)
 
 **One button to close any overlay on any website**  follow [Behind_Overlay](https://twitter.com/Behind_Overlay) for updates
 
 ## News
 
-11 Jun | Firefox extension is coming very soon.
+11 Jun | Firefox extension is available now ! Been a few days since I was seeking how to do it ;)
 
 10 Jun | Assign a keyboard shortcut, [see how](https://twitter.com/Behind_Overlay/status/476250479706398722).
+
+## In development..
+
+* Add default shortcut as Cmd+shift+X for MacOS. And ctrl+alt+X for windows and linux ?
+* Make an overlay permanently hidden for a website.
+
 
 ## What's it all about?
 
