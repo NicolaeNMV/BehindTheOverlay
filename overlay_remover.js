@@ -4,7 +4,7 @@
  *
  */
 
-var debug = true;
+var debug = false;
 
 var utils = (function() {
   function hideElement(element) {
@@ -29,7 +29,7 @@ var utils = (function() {
   }
 
   function isAnElement(node) {
-    return node.nodeType == 1; // nodeType 1 is element
+    return node.nodeType == 1; // nodeType 1 mean element
   }
 
   function nodeListToArray(nodeList) {
@@ -116,21 +116,6 @@ var overlayRemover = function(debug, utils) {
         utils.hideElement(child);
       }
     })
-  }
-
-  function methodOneElementTopLeft() {
-    var overlay = document.elementFromPoint(0, 0);
-
-    var zIndexThreshold = utils.getZIndex(overlay);
-
-    if (isNaN(zIndexThreshold) || zIndexThreshold == 0) {
-      return false;
-    }
-    // To keep things optimized, we assume that the elements we
-    // need to chase are on the same level as our overlay
-    hideElementsAtZIndexNear(overlay, zIndexThreshold);
-
-    return true;
   }
 
   // Check the element in the middle of the screen
