@@ -3,7 +3,8 @@
   "title": "BehindTheOverlay",
   "id": "jid1-Y3WfE7td45aWDw",
   "description": "One click to close any overlay on any website.",
+  "icon": "data/courtain_32.png",
   "author": "Nicolae Namolovan",
   "license": "MIT",
-  "version": "0.1.0"
+  "version": "0.1.1"
 }

@@ -10,8 +10,8 @@ function actionClickHandler(state) {
 }
 
 var button = buttons.ActionButton({
-  id: "mozilla-link",
-  label: "Visit Mozilla",
+  id: "behindtheoverlay-button",
+  label: "Remove the overlay from this page.",
   icon: {
     "16": "./courtain_16.png",
     "32": "./courtain_32.png",
