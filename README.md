@@ -8,6 +8,8 @@
 
 ## News
 
+13 Jun | The works on Safari extension has already begun.
+
 11 Jun | Firefox extension is available now ! Been a few days since I was seeking how to do it ;)
 
 10 Jun | Assign a keyboard shortcut, [see how](https://twitter.com/Behind_Overlay/status/476250479706398722).
