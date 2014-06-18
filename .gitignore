@@ -1,3 +1,5 @@
 node_modules
 .DS_Store
 firefox/data/*
+chrome/images
+chrome/*.js
