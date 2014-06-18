@@ -1,7 +1,7 @@
 {
   "name": "BehindTheOverlay",
   "description": "One click to close any overlay on any website.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "permissions": [
     "activeTab"
   ],
@@ -11,8 +11,8 @@
   },
   "browser_action": {
     "default_icon": {
-       "19": "courtain_38.png",
-       "38": "courtain_38.png"
+       "19": "images/courtain_38.png",
+       "38": "images/courtain_38.png"
     },
     "default_title": "Remove the overlay from this page."
   },
@@ -24,7 +24,7 @@
     }
   },
   "icons": {
-    "128": "courtain_128.png"
+    "128": "images/courtain_128.png"
   },
   "manifest_version": 2
 }
