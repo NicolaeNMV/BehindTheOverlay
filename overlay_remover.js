@@ -141,11 +141,14 @@ var overlayRemover = function(debug, utils) {
     return olderParent;
   }
 
-  function bodyOverflowAuto() {
-    var body = document.body;
-    if (window.getComputedStyle(body).overflow == 'hidden') {
-      utils.styleImportant(body, 'overflow', 'auto');
-    }
+  function containersOverflowAuto() {
+    var containers = [document.documentElement, document.body];
+
+    containers.forEach(function(element) {
+      if (window.getComputedStyle(element).overflow == 'hidden') {
+        utils.styleImportant(element, 'overflow', 'auto');
+      }
+    })
   }
 
   function run() {
@@ -171,7 +174,7 @@ var overlayRemover = function(debug, utils) {
           }
         } else {
           utils.hideElement(candidate);
-          bodyOverflowAuto();
+          containersOverflowAuto();
         }
       }
     }
