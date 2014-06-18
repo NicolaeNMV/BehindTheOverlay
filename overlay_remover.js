@@ -124,7 +124,7 @@ var overlayRemover = function(debug, utils) {
     var overlayPopup = document.elementFromPoint(window.innerWidth / 2, window.innerHeight / 2);
 
     var overlayFound = utils.collectParrents( overlayPopup, function(el) {
-      return utils.getZIndex(el) > 0 && utils.isVisible(el);
+      return utils.getZIndex(el) > 0;
     });
 
     if (debug)
