@@ -16,6 +16,13 @@
     },
     "default_title": "Remove the overlay from this page."
   },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+X"
+      }
+    }
+  },
   "icons": {
     "128": "courtain_128.png"
   },
