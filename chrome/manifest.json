@@ -1,7 +1,7 @@
 {
   "name": "BehindTheOverlay",
   "description": "One click to close any overlay on any website.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "permissions": [
     "activeTab"
   ],
