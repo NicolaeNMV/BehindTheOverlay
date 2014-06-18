@@ -1,8 +1,7 @@
 #!/bin/sh
 
-cp -r ../overlay-game-over to-release
-rm -rf to-release/.git
-rm -rf to-release/test
-rm -rf to-release/.DS_Store
-rm -rf to-release/.gitignore
-zip -r overlay-game-over.zip to-release/* 
+rm -rf overlay-game-over.zip
+rm -rf to-release
+cp -RL ../overlay-game-over/chrome/ to-release
+rm -rf to-release/prepapre.sh
+zip -r overlay-game-over.zip to-release/*
