@@ -5,6 +5,7 @@
   "description": "One click to close any overlay on any website.",
   "icon": "data/courtain_32.png",
   "author": "Nicolae Namolovan",
+  "permissions": {"private-browsing": true},
   "license": "MIT",
   "version": "0.1.1"
 }
