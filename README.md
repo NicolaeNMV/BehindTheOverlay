@@ -49,4 +49,4 @@ The extension should work on all sites that have overlays. I created a list of s
 If you have any suggestion or comment, please create an issue here or send me a tweet to [NicolaeNMV](https://twitter.com/NicolaeNMV). Any feedback is highly appreciated.
 
 ## Licence
-Licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+Licensed under the [GPL License](https://www.gnu.org/licenses/gpl-3.0.en.html).
