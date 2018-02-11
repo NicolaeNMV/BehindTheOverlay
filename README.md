@@ -1,23 +1,18 @@
-# BehindTheOverlay Extension
+# Behind The Overlay Extension
 
 [Chrome Extension](https://chrome.google.com/webstore/detail/behindtheoverlay/ljipkdpcjbmhkdjjmbbaggebcednbbme)
 
-[Firefox extension](https://addons.mozilla.org/en-us/firefox/addon/behind_the_overlay/) (still in process of validation, may take a few days)
+[Firefox extension](https://addons.mozilla.org/en-us/firefox/addon/behind_the_overlay/)
 
 **One button to close any overlay on any website**  follow [Behind_Overlay](https://twitter.com/Behind_Overlay) for updates
 
 ## News
 
-13 Jun | The works on Safari extension has already begun.
+11 feb 2018 | Update Firefox extension to make it compatible with the latest version.
 
-11 Jun | Firefox extension is available now ! Been a few days since I was seeking how to do it ;)
+11 Jun 2014 | Firefox extension is available now !
 
-10 Jun | Assign a keyboard shortcut, [see how](https://twitter.com/Behind_Overlay/status/476250479706398722).
-
-## In development..
-
-* Add default shortcut as Cmd+shift+X for MacOS. And ctrl+alt+X for windows and linux ?
-* Make an overlay permanently hidden for a website.
+10 Jun 2014 | Assign a keyboard shortcut, [see how](https://twitter.com/Behind_Overlay/status/476250479706398722).
 
 
 ## What's it all about?
@@ -43,6 +38,7 @@ The extension should work on all sites that have overlays. I created a list of s
 * Non-intrusive. The extension activates only when you click its button, thereby it has no impact on navigation performance when you don't use the extension. Doesn't inject tons of CSS rules as AdBlock extension is doing for example.
 * Supports hiding of multiple DOM overlay elements.
 * Enables overflow auto of the body when overlay script hides it to disable the scroll of the page.
+* Support of keyboard shortcut. Ctrl+Shift+X on Windows,Linux and Cmd+Shift+X on Mac.
 
 
 ## Feedbacks
