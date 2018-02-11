@@ -6,7 +6,7 @@
     "activeTab"
   ],
   "background": {
-    "scripts": ["background.js", "overlay_remover.js"],
+    "scripts": ["js/background.js", "js/overlay_remover.js"],
     "persistent": false
   },
   "browser_action": {
@@ -20,7 +20,8 @@
     "_execute_browser_action": {
       "suggested_key": {
         "default": "Ctrl+Shift+X"
-      }
+      },
+      "description": "Remove the overlay from this page."
     }
   },
   "icons": {
