@@ -2,7 +2,7 @@
   "name": "Behind The Overlay",
   "author": "Nicolae Namolovan",
   "description": "One click to close any overlay on any website.",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "permissions": [
     "activeTab"
   ],
@@ -16,14 +16,14 @@
        "38": "images/courtain_38.png",
        "64": "images/courtain_64.png"
     },
-    "default_title": "❌ Overlay from this page."
+    "default_title": "❌ Overlay from this page"
   },
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
         "default": "Ctrl+Shift+X"
       },
-      "description": "❌ Overlay from this page."
+      "description": "❌ Overlay from this page"
     }
   },
   "icons": {
