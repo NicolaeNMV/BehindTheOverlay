@@ -8,6 +8,8 @@
 
 ## News
 
+11 feb 2020 | Minor release, just changing the name from BehindTheOverlay to Behind The Overlay.
+
 11 feb 2018 | Update Firefox extension to make it compatible with the latest version.
 
 11 Jun 2014 | Firefox extension is available now !
@@ -35,7 +37,7 @@ The extension should work on all sites that have overlays. I created a list of s
 
 * Requires no special permissions.
 * Extremely lightweight, relies on little known ``document.elementFromPoint`` browser's function to find elements that are in front with the highest z-index.
-* Non-intrusive. The extension activates only when you click its button, thereby it has no impact on navigation performance when you don't use the extension. Doesn't inject tons of CSS rules as AdBlock extension is doing for example.
+* Non-intrusive. The extension activates only when you click its button, thereby it has no impact on navigation performance when you don't use the extension. Doesn't inject tons of CSS rules as AdBlock/uBlock extensions are doing for example.
 * Supports hiding of multiple DOM overlay elements.
 * Enables overflow auto of the body when overlay script hides it to disable the scroll of the page.
 * Support of keyboard shortcut. Ctrl+Shift+X on Windows,Linux and Cmd+Shift+X on Mac.
