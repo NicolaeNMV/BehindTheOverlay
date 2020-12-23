@@ -4,7 +4,7 @@
 
 [Firefox extension](https://addons.mozilla.org/en-us/firefox/addon/behind_the_overlay/)
 
-**One button to close any overlay on any website**  follow [Behind_Overlay](https://twitter.com/Behind_Overlay) for updates
+**One button to close any overlay on any website** follow [Behind_Overlay](https://twitter.com/Behind_Overlay) for updates
 
 ## News
 
@@ -25,6 +25,10 @@ I find this very annoying as every site will have a different way to close that 
 
 This extension solves this problem by offering **you one button to close any overlay** on any website you may ever encounter.
 
+## In the news
+
+This extension was featured on [cnet.com](https://www.cnet.com/how-to/chrome-extension-provides-easy-button-to-close-overlay-pop-ups/), [thenextweb.com](https://thenextweb.com/apps/2014/06/06/chrome-extension-kills-website-overlay-popups/), [ghacks.net](https://www.ghacks.net/2017/05/25/close-annoying-website-overlays-in-chrome-and-firefox/) among others.
+
 ## Extension in action
 
 ![Image](http://nicolaenmv.github.io/BehindTheOverlay/use_example_1.gif)
@@ -36,8 +40,7 @@ The extension should work on all sites that have overlays. I created a list of s
 ## Features
 
 * Requires no special permissions.
-* Extremely lightweight, relies on little known ``document.elementFromPoint`` browser's function to find elements that are in front with the highest z-index.
-* Non-intrusive. The extension activates only when you click its button, thereby it has no impact on navigation performance when you don't use the extension. Doesn't inject tons of CSS rules as AdBlock/uBlock extensions are doing for example.
+* Extremely lightweight. The extension activates only when you click its button, thereby it has no impact on navigation performance when you don't use the extension. Doesn't use tons of rules as AdBlock/uBlock extensions are doing for example.
 * Supports hiding of multiple DOM overlay elements.
 * Enables overflow auto of the body when overlay script hides it to disable the scroll of the page.
 * Support of keyboard shortcut. Ctrl+Shift+X on Windows,Linux and Cmd+Shift+X on Mac.
