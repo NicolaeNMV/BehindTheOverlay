@@ -148,6 +148,9 @@ var overlayRemover = function(debug, utils) {
       if (window.getComputedStyle(element).overflow == 'hidden') {
         utils.styleImportant(element, 'overflow', 'auto');
       }
+      if (window.getComputedStyle(element).position == 'fixed') {
+        utils.styleImportant(element, 'position', 'unset');
+      }
     })
   }
 
