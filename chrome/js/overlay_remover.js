@@ -141,6 +141,32 @@ var overlayRemover = function(debug, utils) {
     return olderParent;
   }
 
+  function disableBlur() {
+    var someContainerMaybe = document.elementFromPoint(window.innerWidth / 2, window.innerHeight / 2);
+
+    var bluredParentsFound = utils.collectParrents( someContainerMaybe, function(el) {
+      return window.getComputedStyle(el).filter.includes('blur');
+    });
+
+    if (bluredParentsFound.length == 0)
+      return false;
+
+    var topParent = bluredParentsFound.pop();
+
+    // Some element can act as a container, that can be blured or masking the whole content
+    var isContainerOccupyingAboutSpaceAsBody = topParent.offsetWidth >= (document.body.offsetWidth - 100);
+
+    if (isContainerOccupyingAboutSpaceAsBody) {
+        utils.styleImportant(topParent, 'filter', 'blur(0)');
+
+        if (debug) console.log('Blur removed!', topParent);
+
+        return true;
+    }
+
+    return false;
+  }
+
   function containersOverflowAuto() {
     var containers = [document.documentElement, document.body];
 
@@ -175,6 +201,7 @@ var overlayRemover = function(debug, utils) {
         } else {
           utils.hideElement(candidate);
           containersOverflowAuto();
+          disableBlur();
         }
       }
     }
