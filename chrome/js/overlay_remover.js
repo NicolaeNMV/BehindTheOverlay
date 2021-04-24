@@ -119,7 +119,7 @@ var overlayRemover = function(debug, utils) {
   }
 
   // Check the element in the middle of the screen
-  // Search fo elements that has zIndex attribute
+  // Search fo elements that have zIndex attribute
   function methodTwoHideElementMiddle() {
     var overlayPopup = document.elementFromPoint(window.innerWidth / 2, window.innerHeight / 2);
 
@@ -173,6 +173,9 @@ var overlayRemover = function(debug, utils) {
     containers.forEach(function(element) {
       if (window.getComputedStyle(element).overflow == 'hidden') {
         utils.styleImportant(element, 'overflow', 'auto');
+      }
+      if (window.getComputedStyle(element).position == 'fixed') {
+        utils.styleImportant(element, 'position', 'static');
       }
     })
   }

@@ -23,3 +23,4 @@ These are some of the sites where the extension was tested to be working
 * https://sowefund.com/projet/1/Brands-On-Air
 * http://www.scoop.it/t/sigfox/p/3633647007/2012/12/07/sigfox-recrute
 * http://www.devfright.com/ibeacons-tutorial-ios-7-clbeaconregion-clbeacon/
+* https://www.heise.de/newsticker/
