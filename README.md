@@ -2,7 +2,7 @@
 
 [Chrome Extension](https://chrome.google.com/webstore/detail/behindtheoverlay/ljipkdpcjbmhkdjjmbbaggebcednbbme)
 
-[Firefox extension](https://addons.mozilla.org/en-us/firefox/addon/behind_the_overlay/)
+[Firefox extension](https://addons.mozilla.org/firefox/addon/behind_the_overlay/)
 
 **One button to close any overlay on any website** follow [Behind_Overlay](https://twitter.com/Behind_Overlay) for updates
 
