@@ -171,7 +171,7 @@ var overlayRemover = function(debug, utils) {
     var containers = [document.documentElement, document.body];
 
     containers.forEach(function(element) {
-      if (window.getComputedStyle(element).overflow == 'hidden') {
+      if (window.getComputedStyle(element).overflowY == 'hidden') {
         utils.styleImportant(element, 'overflow', 'auto');
       }
       if (window.getComputedStyle(element).position == 'fixed') {
