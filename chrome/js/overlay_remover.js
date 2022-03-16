@@ -195,7 +195,7 @@ var overlayRemover = function(debug, utils) {
           var candidateWeight = utils.elementWeight(candidate, weightThreshold)
           if (candidateWeight < weightThreshold) {
             if (debug)
-              console.log('Element is too lightweigh, hide it', candidate);
+              console.log('Element is too lightweight, hide it', candidate);
             utils.hideElement(candidate);
           } else {
             if (debug)
