@@ -46,7 +46,7 @@ The extension should work on all sites that have overlays. I created a list of s
 * Support of keyboard shortcut. Ctrl+Shift+X on Windows,Linux and Cmd+Shift+X on Mac.
 
 
-## Feedbacks
+## Feedback
 If you have any suggestion or comment, please create an issue here or send me a tweet to [NicolaeNMV](https://twitter.com/NicolaeNMV). Any feedback is highly appreciated.
 
 ## Licence
