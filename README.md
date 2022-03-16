@@ -8,7 +8,9 @@
 
 ## News
 
-11 feb 2020 | Minor release, just changing the name from BehindTheOverlay to Behind The Overlay.
+16 Mar 2021 | The scrollbar unblocker was improved to better handle overflowY (thanks to ricobl).
+
+23 Dec 2020 | Minor release, just changing the name from BehindTheOverlay to Behind The Overlay.
 
 11 feb 2018 | Update Firefox extension to make it compatible with the latest version.
 

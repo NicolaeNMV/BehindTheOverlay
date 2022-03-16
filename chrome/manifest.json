@@ -2,7 +2,7 @@
   "name": "Behind The Overlay",
   "author": "Nicolae Namolovan",
   "description": "One click to close any overlay on any website.",
-  "version": "0.1.6",
+  "version": "0.2.1",
   "permissions": [
     "activeTab"
   ],
