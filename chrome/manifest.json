@@ -2,32 +2,30 @@
   "name": "Behind The Overlay",
   "author": "Nicolae Namolovan",
   "description": "One click to close any overlay on any website.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "scripting"
   ],
   "background": {
-    "scripts": ["js/background.js", "js/overlay_remover.js"],
-    "persistent": false
+    "service_worker": "js/background.js"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
-       "32": "images/courtain_32.png",
-       "38": "images/courtain_38.png",
-       "64": "images/courtain_64.png"
+      "16": "images/courtain_32.png",
+      "48": "images/courtain_38.png",
+      "128": "images/courtain_64.png"
     },
     "default_title": "❌ Overlay from this page"
   },
   "commands": {
-    "_execute_browser_action": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+X"
-      },
+    "_execute_action": {
+      "suggested_key": "Ctrl+Shift+X",
       "description": "❌ Overlay from this page"
     }
   },
   "icons": {
     "128": "images/courtain_128.png"
   },
-  "manifest_version": 2
+  "manifest_version": 3
 }

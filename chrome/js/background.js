@@ -6,9 +6,20 @@
 
 var chrome = chrome || browser;
 
-chrome.browserAction.onClicked.addListener(function(tab) {
-  // No tabs or host permissions needed!
-  chrome.tabs.executeScript(null, {file: "/js/overlay_remover.js"}, function() {
-    chrome.tabs.executeScript(null, {code: "overlayRemoverRun();"});
+chrome.action.onClicked.addListener((tab) => {
+  chrome.scripting.executeScript({
+    target: {tabId: tab.id},
+    files: ['/js/overlay_remover.js']
+  }, () => {
+
+    chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      function: () => {
+        overlayRemoverRun();
+      },
+    });
+
   });
+
+
 });
