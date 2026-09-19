@@ -180,12 +180,12 @@ var overlayRemover = function(debug, utils) {
     })
   }
 
-  function run() {
+  function run(silent) {
     for (var i = 0; i < 10; i++) {
       var candidate = methodTwoHideElementMiddle();
       var first = i == 0;
       if (candidate === false) {
-        if (first)
+        if (first && !silent)
           alert('No overlay has been found on this website.');
         break;
       } else {
@@ -218,6 +218,6 @@ var overlayRemover = function(debug, utils) {
 
 overlayRemoverInstance = overlayRemover(debug, utils);
 
-function overlayRemoverRun() {
-  overlayRemoverInstance.run();
+function overlayRemoverRun(silent) {
+  overlayRemoverInstance.run(silent);
 }

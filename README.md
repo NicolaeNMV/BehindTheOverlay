@@ -1,5 +1,7 @@
 # Behind The Overlay Extension
 
+> This is a fork of [NicolaeNMV/BehindTheOverlay](https://github.com/NicolaeNMV/BehindTheOverlay) that adds an "always active" mode: instead of only removing overlays when you click the toolbar button, the extension can watch every page in the background and remove overlays automatically as they appear. Toggle it from the extension's Options page (right-click the toolbar icon → Options). This requires the extension to run on all sites, so it needs the "read and change all your data on all websites" permission, unlike the upstream project which needs no special permissions.
+
 [Chrome Extension](https://chrome.google.com/webstore/detail/behindtheoverlay/ljipkdpcjbmhkdjjmbbaggebcednbbme)
 
 [Firefox extension](https://addons.mozilla.org/firefox/addon/behind_the_overlay/)
